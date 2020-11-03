@@ -5,7 +5,15 @@
 { 
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44b4}",
+    "defaults":
+    {
+
+        "guid":"{61c54bbd-c2c6-5271-96e7-009a87ff44b4}",
+        "fontface":"Cascadia Mono PL"
+    },
+    
+    
+
 
     "profiles":
     [
@@ -53,7 +61,7 @@
             "commandline" : "powershell.exe",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
-            "fontFace" : "Cascadia Mono PL",
+            "fontFace" : "Cascadia Code PL",
             "fontSize" : 10,
             "guid" : "{61c54bbd-c2c6-5271-96e7-009a87ff44b4}",
             "historySize" : 9001,
