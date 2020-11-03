@@ -74,13 +74,20 @@
         },
         {
             "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-            "hidden": false,
+            "hidden": true,
             "name": "PowerShell Core",
             "source": "Windows.Terminal.PowershellCore",
             "fontFace" : "Dank Mono",
             "startingDirectory" : ".",
             "colorScheme" : "Dracula",
             "useAcrylic" : true
+        },
+        {
+            "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+            "hidden": false,
+            "name": "Ubuntu-20.04",
+            "source": "Windows.Terminal.Wsl",
+			"useAcrylic" : true
         }
     ],
 
@@ -88,6 +95,7 @@
     "schemes": 
     [
         {
+		    "name" : "Dracula",
             "background" : "#282A36",
             "black" : "#21222C",
             "blue" : "#007ACC",
@@ -102,7 +110,6 @@
             "cyan" : "#8BE9FD",
             "foreground" : "#F8F8F2",
             "green" : "#50FA7B",
-            "name" : "Dracula",
             "purple" : "#FF79C6",
             "red" : "#FF5555",
             "white" : "#F8F8F2",
