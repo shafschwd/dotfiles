@@ -9,7 +9,7 @@
     {
 
         "guid":"{61c54bbd-c2c6-5271-96e7-009a87ff44b4}",
-        "fontface":"Cascadia Mono PL"
+        "fontface":"Dank Mono"
     },
     
     
@@ -85,10 +85,12 @@
         {
             "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
             "hidden": false,
-            "name": "Ubuntu-20.04",
-			"startingDirectory": "//wsl$/Ubuntu-20.04/home/shafs",
+            "name": "Ubuntu",
+			"fontFace" : "Hack NF",
+			"startingDirectory" : ".",
             "source" : "Windows.Terminal.Wsl",
 			"useAcrylic" : true
+			//"startingDirectory": "//wsl$/Ubuntu-20.04/home/shafs"
         }
     ],
 
