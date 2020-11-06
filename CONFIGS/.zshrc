@@ -75,7 +75,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-z)
+plugins=(git zsh-z zsh-autosuggestions  zsh-syntax-highlighting fzf)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -100,7 +100,21 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#alias ls='lsd'
+ alias ls='lsd'
+ alias ins='apt list --installed'
+ alias exp='explorer.exe .'                   #opens windows explore in current directory
+ alias upd='sudo apt update'
+ alias upg='sudo apt upgrade'
+ 
+
+
+
+
+
+
+
+
+
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
