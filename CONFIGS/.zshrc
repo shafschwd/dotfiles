@@ -105,7 +105,9 @@ source $ZSH/oh-my-zsh.sh
  alias exp='explorer.exe .'                   #opens windows explore in current directory
  alias upd='sudo apt update'
  alias upg='sudo apt upgrade'
- 
+ alias npp='notepad++.exe'
+ alias rc='rclone.exe'
+ alias sub='sublime_text.exe'
 
 
 
