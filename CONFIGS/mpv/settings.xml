@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <LastUpdateCheck>162</LastUpdateCheck>
+    <Volume>156</Volume>
+    <RecentFiles>
+        <string>E:\ANIME\ongoing anime\black clover\[SubsPlease] Black Clover - 167 (1080p) [156C78FD].mkv</string>
+        <string>E:\ANIME\ongoing anime\black clover\[SubsPlease] Black Clover - 160 (1080p) [58680691]_1.webm</string>
+        <string>E:\ANIME\ongoing anime\black clover\[SubsPlease] Black Clover - 160 (1080p) [58680691].mkv</string>
+    </RecentFiles>
+    <WindowLocation>
+        <X>0</X>
+        <Y>0</Y>
+    </WindowLocation>
+    <WindowPosition>
+        <X>683</X>
+        <Y>368</Y>
+    </WindowPosition>
+    <WindowSize>
+        <Width>787</Width>
+        <Height>443</Height>
+    </WindowSize>
+    <ConfigEditorSearch>screen</ConfigEditorSearch>
+    <Mute>no</Mute>
+    <UpdateCheckVersion />
+</AppSettings>
