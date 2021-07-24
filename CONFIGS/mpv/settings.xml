@@ -1,24 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <LastUpdateCheck>167</LastUpdateCheck>
-    <Volume>80</Volume>
+    <LastUpdateCheck>204</LastUpdateCheck>
+    <Volume>104</Volume>
     <RecentFiles>
+        <string>C:\Users\SHAFI.ZEREF\Downloads\Video\One Two Three (2008) 720p WEBDL.mkv</string>
+        <string>C:\Bandicam\bandicam 2021-07-23 08-17-44-770.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Videos\Captures\BlueStacks 320 2021-07-23 06-34-05.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Videos\test.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Videos\belmoth.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Documents\ShareX\Screenshots\2021-07\tm1C4mhsLw.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Documents\ShareX\Screenshots\2021-07\AAYIxZyKfV.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Downloads\Video\No Problem (2010) 1080p BluRay.mkv</string>
+        <string>G:\projects\class\backup\Class-17(Rwd-2105)\Video_2021-07-07_153512.wmv</string>
+        <string>G:\projects\class\backup\Class-15(Rwd-2105)\Video_2021-06-30_155046.wmv</string>
+        <string>G:\projects\class\backup\Class-14\Video_2021-06-28_153816.wmv</string>
+        <string>G:\projects\class\backup\Class-12\Video_2021-06-21_151910.wmv</string>
+        <string>G:\projects\class\backup\Class-11\Video_2021-06-16_155610.wmv</string>
+        <string>Video_2021-06-16_155610.wmv</string>
         <string>G:\projects\class\backup\class 11.wmv</string>
-        <string>E:\ANIME\ongoing anime\black clover\[SubsPlease] Black Clover - 167 (1080p) [156C78FD].mkv</string>
-        <string>E:\ANIME\ongoing anime\black clover\[SubsPlease] Black Clover - 160 (1080p) [58680691]_1.webm</string>
-        <string>E:\ANIME\ongoing anime\black clover\[SubsPlease] Black Clover - 160 (1080p) [58680691].mkv</string>
     </RecentFiles>
     <WindowLocation>
-        <X>1</X>
+        <X>0</X>
         <Y>0</Y>
     </WindowLocation>
     <WindowPosition>
-        <X>-107</X>
-        <Y>401</Y>
+        <X>683</X>
+        <Y>367</Y>
     </WindowPosition>
     <WindowSize>
-        <Width>787</Width>
-        <Height>443</Height>
+        <Width>785</Width>
+        <Height>442</Height>
     </WindowSize>
     <ConfigEditorSearch>screen</ConfigEditorSearch>
     <Mute>no</Mute>
