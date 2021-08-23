@@ -1,6 +1,5 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [],
     "alwaysOnTop": false,
     "alwaysShowTabs": true,
     "confirmCloseAllTabs": true,
@@ -92,7 +91,7 @@
             },
             {
                 "colorScheme": "Dracula",
-                "commandline": "G:\\scp\\apps\\git\\2.32.0.windows.2\\bin\\bash.exe",
+                "commandline": "G:\\scp\\apps\\git\\2.32.0.windows.1\\git-cmd.exe",
                 "name": "git",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "git"

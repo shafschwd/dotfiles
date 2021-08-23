@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <LastUpdateCheck>204</LastUpdateCheck>
+    <LastUpdateCheck>233</LastUpdateCheck>
     <Volume>104</Volume>
     <RecentFiles>
+        <string>C:\Users\SHAFI.ZEREF\Pictures\Video Projects\best.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Pictures\Video Projects\bandicam 2021-08-11 04-54-11-426_new.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Pictures\Video Projects\bandicam 2021-08-11 04-54-11-426.mp4</string>
+        <string>C:\Users\SHAFI.ZEREF\Pictures\Screenshot_2021.06.26_22.13.31.661.png</string>
+        <string>C:\Users\SHAFI.ZEREF\Pictures\Screenshot_2021.06.23_19.52.44.846.png</string>
+        <string>C:\Users\SHAFI.ZEREF\Pictures\Screenshot_2021.06.23_19.50.07.824.png</string>
+        <string>C:\Users\SHAFI.ZEREF\Pictures\IMG-20210805-WA0002.jpg</string>
+        <string>C:\Users\SHAFI.ZEREF\Pictures\class.mp4</string>
+        <string>C:\Bandicam\bandicam 2021-08-11 04-54-11-426.mp4</string>
+        <string>C:\Bandicam\bandicam 2021-08-11 04-51-52-204.mp4</string>
+        <string>C:\Bandicam\bandicam 2021-08-11 04-48-51-457.mp4</string>
+        <string>G:\projects\class\backup\Class-22\Video_2021-08-09_155241.wmv</string>
         <string>C:\Users\SHAFI.ZEREF\Downloads\Video\One Two Three (2008) 720p WEBDL.mkv</string>
         <string>C:\Bandicam\bandicam 2021-07-23 08-17-44-770.mp4</string>
         <string>C:\Users\SHAFI.ZEREF\Videos\Captures\BlueStacks 320 2021-07-23 06-34-05.mp4</string>
-        <string>C:\Users\SHAFI.ZEREF\Videos\test.mp4</string>
-        <string>C:\Users\SHAFI.ZEREF\Videos\belmoth.mp4</string>
-        <string>C:\Users\SHAFI.ZEREF\Documents\ShareX\Screenshots\2021-07\tm1C4mhsLw.mp4</string>
-        <string>C:\Users\SHAFI.ZEREF\Documents\ShareX\Screenshots\2021-07\AAYIxZyKfV.mp4</string>
-        <string>C:\Users\SHAFI.ZEREF\Downloads\Video\No Problem (2010) 1080p BluRay.mkv</string>
-        <string>G:\projects\class\backup\Class-17(Rwd-2105)\Video_2021-07-07_153512.wmv</string>
-        <string>G:\projects\class\backup\Class-15(Rwd-2105)\Video_2021-06-30_155046.wmv</string>
-        <string>G:\projects\class\backup\Class-14\Video_2021-06-28_153816.wmv</string>
-        <string>G:\projects\class\backup\Class-12\Video_2021-06-21_151910.wmv</string>
-        <string>G:\projects\class\backup\Class-11\Video_2021-06-16_155610.wmv</string>
-        <string>Video_2021-06-16_155610.wmv</string>
-        <string>G:\projects\class\backup\class 11.wmv</string>
     </RecentFiles>
     <WindowLocation>
         <X>0</X>
@@ -31,7 +31,7 @@
         <Width>785</Width>
         <Height>442</Height>
     </WindowSize>
-    <ConfigEditorSearch>screen</ConfigEditorSearch>
+    <ConfigEditorSearch>log</ConfigEditorSearch>
     <Mute>no</Mute>
     <UpdateCheckVersion />
 </AppSettings>

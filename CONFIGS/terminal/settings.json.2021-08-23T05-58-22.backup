@@ -92,7 +92,7 @@
             },
             {
                 "colorScheme": "Dracula",
-                "commandline": "G:\\scp\\apps\\git\\2.32.0.windows.2\\bin\\bash.exe",
+                "commandline": "G:\\scp\\shims\\git-bash.exe",
                 "name": "git",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "git"
