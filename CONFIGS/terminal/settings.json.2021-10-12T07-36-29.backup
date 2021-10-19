@@ -102,17 +102,12 @@
             {
                 "colorScheme": "Dracula",
                 "commandline": "G:\\scp\\apps\\git\\2.32.0.windows.2\\bin\\bash.exe",
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b9}",
                 "name": "git",
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "git"
             },
             {
-                "colorScheme": "Blue Matrix",
-                "font": 
-                {
-                    "face": "Hack Nerd Font"
-                },
+                "colorScheme": "Dracula",
                 "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
                 "hidden": false,
                 "name": "Ubuntu-20.04",
@@ -122,29 +117,6 @@
     },
     "schemes": 
     [
-        {
-            "background": "#101116",
-            "black": "#101116",
-            "blue": "#00B0FF",
-            "brightBlack": "#686868",
-            "brightBlue": "#6871FF",
-            "brightCyan": "#60FDFF",
-            "brightGreen": "#5FFA68",
-            "brightPurple": "#D682EC",
-            "brightRed": "#FF6E67",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFC67",
-            "cursorColor": "#76FF9F",
-            "cyan": "#76C1FF",
-            "foreground": "#00A2FF",
-            "green": "#00FF9C",
-            "name": "Blue Matrix",
-            "purple": "#D57BFF",
-            "red": "#FF5680",
-            "selectionBackground": "#C1DEFF",
-            "white": "#C7C7C7",
-            "yellow": "#FFFC58"
-        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -380,7 +352,7 @@
     "showTerminalTitleInTitlebar": true,
     "snapToGridOnResize": true,
     "startOnUserLogin": false,
-    "startupActions": "null",
+    "startupActions": null,
     "tabSwitcherMode": "inOrder",
     "tabWidthMode": "equal",
     "theme": "system",

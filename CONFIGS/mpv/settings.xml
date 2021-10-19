@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AppSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <LastUpdateCheck>233</LastUpdateCheck>
-    <Volume>104</Volume>
+    <LastUpdateCheck>291</LastUpdateCheck>
+    <Volume>140</Volume>
     <RecentFiles>
+        <string>G:\projects\class\backup\class-31\CIT-class-31.wmv</string>
+        <string>G:\projects\class\backup\class-30\CIT-class-30.wmv</string>
+        <string>G:\projects\class\backup\class-30\Video_2021-09-20_154005.wmv</string>
         <string>C:\Users\SHAFI.ZEREF\Pictures\Video Projects\best.mp4</string>
         <string>C:\Users\SHAFI.ZEREF\Pictures\Video Projects\bandicam 2021-08-11 04-54-11-426_new.mp4</string>
         <string>C:\Users\SHAFI.ZEREF\Pictures\Video Projects\bandicam 2021-08-11 04-54-11-426.mp4</string>
@@ -15,9 +18,6 @@
         <string>C:\Bandicam\bandicam 2021-08-11 04-51-52-204.mp4</string>
         <string>C:\Bandicam\bandicam 2021-08-11 04-48-51-457.mp4</string>
         <string>G:\projects\class\backup\Class-22\Video_2021-08-09_155241.wmv</string>
-        <string>C:\Users\SHAFI.ZEREF\Downloads\Video\One Two Three (2008) 720p WEBDL.mkv</string>
-        <string>C:\Bandicam\bandicam 2021-07-23 08-17-44-770.mp4</string>
-        <string>C:\Users\SHAFI.ZEREF\Videos\Captures\BlueStacks 320 2021-07-23 06-34-05.mp4</string>
     </RecentFiles>
     <WindowLocation>
         <X>0</X>
