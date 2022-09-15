@@ -275,6 +275,7 @@ shell
 				item(title='AppData' image=inherit cmd=@user.appdata)
 				item(title='Temp' image=inherit cmd=@user.temp)
             }
+			item(title='Run WAU' image=[\uE068, #2986cc] cmd='wt.exe' args='powershell -NoProfile -NonInteractive -NoLogo -ExecutionPolicy Bypass -FILE "C:\ProgramData\Winget-AutoUpdate\winget-upgrade.ps1"')
             item(title=id.control_panel.title image=\uE0F3 cmd='shell:::{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}')
             item(title='All Control Panel Items' image=\uE0F3 cmd='shell:::{ED7BA470-8E54-465E-825C-99712043E01C}')
             item(title=id.run.title image=\uE14B cmd='shell:::{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0}')
