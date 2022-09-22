@@ -13,75 +13,157 @@
 # disabled = true
 # ~/.config/starship.toml
 
-command_timeout = 1000
+#first config
 
-format = """
-$username\
-$hostname\
-$directory\
-$git_branch\
-$git_state\
-$git_status\
-$git_metrics\
-$fill\
-$nodejs\
-$cmd_duration $jobs $time\
-$line_break\
-$character"""
+# command_timeout = 1000
+
+# format = """
+# $username\
+# $hostname\
+# $directory\
+# $git_branch\
+# $git_state\
+# $git_status\
+# $git_metrics\
+# $fill\
+# $nodejs\
+# $cmd_duration $jobs $time\
+# $line_break\
+# $character"""
+
+# [nodejs]
+# format = "[$symbol($version )]($style)"
+# style = "bright-green"
+
+# [fill]
+# symbol = " "
+
+# [directory]
+# style = "blue"
+# read_only = "🔒"
+# truncation_length = 4
+# truncate_to_repo = false
+
+# [character]
+# success_symbol = "[❯](purple)"
+# error_symbol = "[❯](red)"
+# vicmd_symbol = "[❮](green)"
+
+# [git_branch]
+# symbol = " "
+# format = "[$symbol$branch]($style) "
+# style = "bright-green"
+
+# [jobs]
+# symbol = ""
+# style = "bold red"
+# number_threshold = 1
+# format = "[$symbol]($style)"
+
+# [git_status]
+# format = '([\[$all_status$ahead_behind\]]($style) )'
+# style = "cyan"
+
+# [git_state]
+# format = '\([$state( $progress_current/$progress_total)]($style)\) '
+# style = "bright-black"
+
+# [git_metrics]
+# disabled = false
+
+# [cmd_duration]
+# format = "[$duration]($style)"
+# style = "yellow"
+
+# [memory_usage]
+# disabled = false
+# threshold = -1
+# symbol = " "
+# style = "bold dimmed green"
+
+# [rust]
+# symbol = "🦀"
+
+# [time]
+# disabled = false
+# style = "bold white"
+# format = "[$time]($style)"
+
+
+# another config
+
+command_timeout = 1000
+continuation_prompt = "[﬌](#a89984) "
+format = "($directory[](#bdae93) )($git_branch[](#bdae93) )($git_commit[](#bdae93) )($git_metrics[](#bdae93) )($git_status[](#bdae93) )$fill( [](#0ff06a)$memory_usage) $all $line_break($status)$character"
+right_format = "($cmd_duration)($git_state)"
+scan_timeout = 100
 
 [nodejs]
 format = "[$symbol($version )]($style)"
-
-[fill]
-symbol = " "
-
-[directory]
-style = "blue"
-read_only = "🔒"
-truncation_length = 4
-truncate_to_repo = false
+style = "#0ff06a"
 
 [character]
-success_symbol = "[❯](purple)"
-error_symbol = "[❯](red)"
-vicmd_symbol = "[❮](green)"
+error_symbol = "[](#fe8019)"
+success_symbol = "[](#8ec07c)"
+vicmd_symbol = "[](#d3869b)"
 
-[git_branch]
-symbol = " "
-format = "[$symbol$branch]($style) "
-style = "bright-green"
+[cmd_duration]
+format = " [ $duration]($style)"
+min_time = 5
+min_time_to_notify = 120000
+notification_timeout = 300000
+show_notifications = true
 
-[jobs]
-symbol = ""
-style = "bold red"
-number_threshold = 1
-format = "[$symbol]($style)"
+[directory]
+format = "([$read_only ]($read_only_style))[$path]($style) "
+read_only = ""
+read_only_style = "#fe8019"
 
-[git_status]
-format = '([\[$all_status$ahead_behind\]]($style) )'
-style = "cyan"
+[fill]
+style = "#504945"
+symbol = "·"
 
-[git_state]
-format = '\([$state( $progress_current/$progress_total)]($style)\) '
-style = "bright-black"
+[git_commit]
+format = "on [ $hash ](bold #8ec07c)([ $tag ](bold #fabd2f))"
+tag_symbol = ""
 
 [git_metrics]
 disabled = false
 
-[cmd_duration]
-format = "[$duration]($style)"
-style = "yellow"
+[git_state]
+bisect = "BISECT"
+cherry_pick = "PICK"
+format = " [\\[](bold #bdae93)[$state( $progress_current/$progress_total)]($style)[\\]](bold #bdae93)"
+merge = "MERGE"
+rebase = "REBASE"
+revert = "REVERT"
+style = "underline bold #fe8019"
+
+[git_status]
+ahead = " $count"
+behind = " $count"
+conflicted = " $count"
+deleted = " $count"
+format = "([$stashed](bold #fabd2f) )([$renamed](bold #d3869b) )([$deleted](bold #fb4934) )([$modified](bold #d3869b) )([$conflicted](bold #fb4934) )([$ahead](bold #b8bb26) )([$behind](bold #fe8019) )([$staged](bold #8ec07c) )([$untracked](bold #fe8019) )"
+ignore_submodules = false
+modified = " $count"
+renamed = " $count"
+staged = " $count"
+stashed = " $count"
+untracked = " $count"
+up_to_date = ""
 
 [memory_usage]
 disabled = false
+format = " [ $ram_pct]($style)"
+style = "bold #d5c4a1"
 threshold = 0
-symbol = "⁐"
-style = "bold dimmed green"
 
-[rust]
-symbol = "🦀"
-
-[time]
+[status]
 disabled = false
-style = "bold white"
-format = "[$time]($style)"
+format = "[$status]($style) "
+recognize_signal_code = false
+style = "bold #fb4934"
+
+[battery]
+disabled = true
