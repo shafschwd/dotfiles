@@ -162,7 +162,7 @@ shell
 			item(title='Command Prompt@elevated' tip=["ELEVATED\nhold Shift key to run elevated", tip.danger] admin=@shift_pressed image cmd='cmd.exe' args='/K TITLE Command Prompt &ver& PUSHD "@sel.dir"')
 			item(title='Windows PowerShell@elevated' admin=@shift_pressed image command='powershell.exe' arguments='-noexit -command Set-Location -Path "@sel.dir\."')
 
-			item(where=sys.ver.major >= 10 title='@appx.name("WindowsTerminal")@elevated' admin=@shift_pressed image='@package.path("WindowsTerminal")\WindowsTerminal.exe' cmd='wt.exe' arg='-d "@sel.path\."')
+			item(title='WindowsTerminal@elevated' admin=@shift_pressed image='@package.path("WindowsTerminal")\WindowsTerminal.exe' cmd='wt.exe' arg='-d "@sel.path\."')
 		}
 
 		menu(type='file|dir|drive|namespace|back' mode=multiple title='File manage' image=\uE0F8)
@@ -247,6 +247,7 @@ shell
 			menu(mode=single title='editors' image=\uE17A)
 			{
 				item(title='vscode' image=[\uE272, #22A7F2] cmd='code.exe' args='"@sel.path"')
+				item(title='sublime' image='C:\Program Files\Sublime Text\sublime_text.exe' cmd='C:\Program Files\Sublime Text\sublime_text.exe' args='"@sel.path"')
 				separator
 				item(type='file' title='notepad3' image cmd='notepad3.exe' args='"@sel.path"')
 				item(type='file' mode=single title='Windows notepad' image cmd='@sys.bin\notepad.exe' args='"@sel.path"')
@@ -356,6 +357,7 @@ shell
 			menu(title="Programs" sep=both image=\uE250){
 				item(title='mica@elevated' admin=@shift_pressed image='C:\Users\User\AppData\Local\Programs\Mica For Everyone\MicaForEveryone.exe' cmd='C:\Users\User\AppData\Local\Programs\Mica For Everyone\MicaForEveryone.exe')
 				item(title='shell@elevated' admin=@shift_pressed image='C:\Users\User\Downloads\Compressed\shell-beta\shell.exe' cmd='C:\Users\User\Downloads\Compressed\shell-beta\shell.exe')
+				item(title='sync thing@elevated' admin=@shift_pressed image='C:\Program Files\SyncTrayzor\SyncTrayzor.exe' cmd='C:\Program Files\SyncTrayzor\SyncTrayzor.exe')
 			}
 			item(title='Run WAU' image=[\uE068, #2986cc] cmd='wt.exe' args='powershell -NoProfile -NonInteractive -NoLogo -ExecutionPolicy Bypass -FILE "C:\ProgramData\Winget-AutoUpdate\winget-upgrade.ps1"')
             item(title=id.control_panel.title image=\uE0F3 cmd='shell:::{5399E694-6CE5-4D6C-8FCE-1D8870FDCBA0}')
