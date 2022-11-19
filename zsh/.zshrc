@@ -5,6 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -77,7 +78,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump zsh-syntax-highlighting zsh-autosuggestions)
+# plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 
 source $ZSH/oh-my-zsh.sh
@@ -104,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 
+   alias ins='sudo nala install' 
    alias lins='nala list --installed'
    alias exp='explorer.exe .'                   #opens windows explore in current directory
    alias upd='sudo nala update'
@@ -111,6 +113,9 @@ source $ZSH/oh-my-zsh.sh
    alias npp='notepad++.exe'
    alias rc='rclone.exe'
    alias sub='sublime_text.exe'
+   alias mc='micro'
+   alias py='python3'
+   alias vi='nvim'
    
 #lsd alias
 	
@@ -119,6 +124,13 @@ source $ZSH/oh-my-zsh.sh
 	alias la='ls -a'
 	alias lla='ls -la'
 	alias lt='ls --tree'
+
+#lsd config
+if [[ -f ~/.dircolors ]] ; then
+    eval $(dircolors -b ~/.dircolors)     
+elif [[ -f /etc/DIR_COLORS ]] ; then
+    eval $(dircolors -b /etc/DIR_COLORS)
+fi
    
    
 # Example aliases
@@ -131,3 +143,28 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+#zoxide config
+autoload -Uz compinit
+compinit -i
+eval "$(zoxide init zsh)"
+
+
+export COLORTERM=truecolor
+
+# pnpm
+export PNPM_HOME="/home/shafs/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+
+[ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
+
+#zap
+# Example install plugins
+# plug "zap-zsh/supercharge"
+plug "zsh-users/zsh-autosuggestions"
+plug "zsh-users/zsh-syntax-highlighting"
+
+# Example theme
+# plug "zap-zsh/zap-prompt"
